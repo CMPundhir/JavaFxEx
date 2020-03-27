@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" stylesheets="@myCss.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <BorderPane prefHeight="800.0" prefWidth="800.0">
+         <center>
+            <StackPane prefHeight="495.0" prefWidth="631.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="-Infinity" fitWidth="-Infinity" pickOnBounds="true" preserveRatio="true">
+                     <image>
+<!--                        <Image url="file:/C:/Users/cm/IdeaProjects/GoogleMapEx/assets/borough.png" />-->
+                     </image>
+                  </ImageView>
+                  <AnchorPane>
+                     <children>
+                        <Button id="map-button" fx:id="b1" layoutX="148.0" layoutY="286.0" mnemonicParsing="false" onMouseEntered="#setOnMouseEntered2" onMouseExited="#setOnMouseExited2" prefHeight="83.0" prefWidth="72.0" text="Button">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button id="map-button" fx:id="b2" layoutX="310.0" layoutY="307.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="64.0" text="Button">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button id="map-button" fx:id="b3" layoutX="229.0" layoutY="307.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="64.0" text="Button">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </StackPane>
+         </center></BorderPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
